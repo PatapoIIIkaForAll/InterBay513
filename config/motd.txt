@@ -1,0 +1,5 @@
+<h1>Welcome to InterBaby!</h1>
+
+-<i>This server is running <a href="http://baystation12.net/">Baystation 12's</a> modification of the <a href="http://ss13.eu/">/tg/station13</a> SS13 code.</i>
+<br><br>
+<strong>Discord:</strong> <a href="https://discord.gg/BAFq4nk">https://discord.gg/BAFq4nk</a>
