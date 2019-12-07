@@ -360,7 +360,7 @@ datum/controller/vote
 					question = cp1251_to_utf8(sanitizeSafe(input(usr,"What is the vote for?") as text|null))
 					if(!question)	return 0
 					for(var/i=1,i<=10,i++)
-						var/option = cp1251_to_utf8(capitalize(sanitize(input_cp1251(usr,"Please enter an option or hit cancel to finish"))))
+						var/option = cp1251_to_utf8(capitalize(sanitize(input(usr,"Please enter an option or hit cancel to finish"))))
 						if(!option || mode || !usr.client)	break
 						choices.Add(option)
 				else
